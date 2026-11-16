@@ -1,8 +1,8 @@
-# Release handoff
+# Release checklist
 
-The local repository and distributions are ready for review. No remote repository or release has been created from this environment. Browser access to GitHub's repository creation page was blocked by an administrator-enforced origin policy, and the connected GitHub tools do not expose repository creation.
+Repository: [Sakura2589/episode-fence](https://github.com/Sakura2589/episode-fence).
 
-Proposed repository name: `episode-fence`
+The source is maintained on `main`. Publishing source does not automatically create a tagged release or publish a package to PyPI.
 
 Description:
 
@@ -10,7 +10,7 @@ Description:
 
 Suggested topics: `robotics`, `lerobot`, `imitation-learning`, `dataset`, `data-quality`, `data-leakage`, `machine-learning`, `python`.
 
-Create an empty public repository in the intended account (without an extra README, license or gitignore), then connect and push this local repository. Use the actual URL returned by GitHub. Do not force-push over an existing repository.
+Review the changes and push commits to the repository through the normal Git workflow. Do not force-push over shared history.
 
 Before announcing:
 

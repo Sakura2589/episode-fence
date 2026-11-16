@@ -14,6 +14,10 @@ authors = [{name = "EpisodeFence contributors"}]
 keywords = ["robotics", "lerobot", "dataset", "data-leakage", "validation"]
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/Sakura2589/episode-fence"
+Issues = "https://github.com/Sakura2589/episode-fence/issues"
+
 [project.optional-dependencies]
 lerobot = ["pyarrow>=14"]
 dev = ["pytest>=8", "build>=1"]

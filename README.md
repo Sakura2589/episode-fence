@@ -11,6 +11,7 @@
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-196c59)
 ![Core dependencies: 0](https://img.shields.io/badge/core_dependencies-0-196c59)
 ![License: MIT](https://img.shields.io/badge/license-MIT-196c59)
+[![CI](https://github.com/Sakura2589/episode-fence/actions/workflows/ci.yml/badge.svg)](https://github.com/Sakura2589/episode-fence/actions/workflows/ci.yml)
 
 </div>
 
@@ -39,6 +40,8 @@ This applies when your loader reads context from the original recording beyond a
 Requires Python 3.10+. From this source checkout, no installation is needed:
 
 ```sh
+git clone https://github.com/Sakura2589/episode-fence.git
+cd episode-fence
 python -m episode_fence demo -o demo-output
 ```
 
