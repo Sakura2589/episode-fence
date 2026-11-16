@@ -1,0 +1,10 @@
+{"group": "session-a", "id": "pick-01/front", "source": "recording-01", "source_frames": 300, "split": "train", "start": 0, "stop": 100, "task": "pick cup"}
+{"group": "session-a", "id": "pick-01/wrist", "source": "recording-01", "source_frames": 300, "split": "validation", "start": 40, "stop": 140, "task": "pick cup"}
+{"group": "session-b", "id": "pick-02/early", "source": "recording-02", "source_frames": 300, "split": "train", "start": 0, "stop": 100, "task": "pick cup"}
+{"group": "session-b", "id": "pick-02/late", "source": "recording-02", "source_frames": 300, "split": "validation", "start": 110, "stop": 200, "task": "pick cup"}
+{"group": "session-c", "id": "place-03", "source": "recording-03", "source_frames": 160, "split": "train", "start": 0, "stop": 160, "task": "place cup"}
+{"group": "session-d", "id": "place-04", "source": "recording-04", "source_frames": 140, "split": "validation", "start": 0, "stop": 140, "task": "place cup"}
+{"group": "session-e", "id": "pick-05", "source": "recording-05", "source_frames": 180, "split": "train", "start": 0, "stop": 180, "task": "pick cup"}
+{"group": "session-f", "id": "pick-06", "source": "recording-06", "source_frames": 150, "split": "train", "start": 0, "stop": 150, "task": "pick cup"}
+{"group": "session-g", "id": "place-07", "source": "recording-07", "source_frames": 170, "split": "train", "start": 0, "stop": 170, "task": "place cup"}
+{"group": "session-h", "id": "place-08", "source": "recording-08", "source_frames": 120, "split": "validation", "start": 0, "stop": 120, "task": "place cup"}

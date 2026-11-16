@@ -1,0 +1,5 @@
+include README.zh-CN.md CONTRIBUTING.md SECURITY.md VALIDATION.md CHANGELOG.md
+recursive-include docs *.md *.svg *.html *.json *.jsonl
+recursive-include examples *.json *.jsonl
+recursive-include scripts *.py
+recursive-include tests *.py

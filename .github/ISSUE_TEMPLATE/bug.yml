@@ -1,0 +1,20 @@
+name: Bug report
+description: Report incorrect evidence, import problems, or CLI failures.
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include a sanitized manifest, command, actual and expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: semantics
+    attributes:
+      label: Loader semantics
+      description: How are source IDs, frame coordinates, history, future and boundary padding defined?
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Python, OS, EpisodeFence and optional PyArrow versions.

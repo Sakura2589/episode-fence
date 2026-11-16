@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "conflicts",
+  "fingerprint": "98b21e8b00d5e5a36ea5fcdbdc998bd63c1a3646ed6461147857570309a9ecaf",
+  "policy": {
+    "history": 8,
+    "future": 24,
+    "embargo": 0,
+    "isolate_groups": false
+  },
+  "summary": {
+    "clips": 10,
+    "sources": 8,
+    "affected_clips": 4,
+    "splits": {
+      "train": {
+        "clips": 6,
+        "clip_frames": 860,
+        "affected": 2
+      },
+      "validation": {
+        "clips": 4,
+        "clip_frames": 450,
+        "affected": 2
+      }
+    }
+  },
+  "affected_ids": [
+    "pick-01/front",
+    "pick-01/wrist",
+    "pick-02/early",
+    "pick-02/late"
+  ],
+  "witnesses": [
+    {
+      "a": "pick-01/front",
+      "b": "pick-01/wrist",
+      "splits": [
+        "train",
+        "validation"
+      ],
+      "kind": "raw-overlap",
+      "source": "recording-01",
+      "overlap": [
+        32,
+        124
+      ],
+      "gap": 0,
+      "group": null
+    },
+    {
+      "a": "pick-02/early",
+      "b": "pick-02/late",
+      "splits": [
+        "train",
+        "validation"
+      ],
+      "kind": "window-overlap",
+      "source": "recording-02",
+      "overlap": [
+        102,
+        124
+      ],
+      "gap": 0,
+      "group": null
+    }
+  ],
+  "evidence_limit": 200,
+  "warnings": [],
+  "scope": "Declared source/frame and optional group boundaries only; no content similarity or policy evaluation."
+}

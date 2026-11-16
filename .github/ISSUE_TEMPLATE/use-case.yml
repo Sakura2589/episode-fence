@@ -1,0 +1,15 @@
+name: Real pipeline feedback
+description: Help validate whether EpisodeFence fits a real data workflow.
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Your data preparation workflow
+      description: Explain collection, slicing, splitting and loader behavior without private data.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What was useful or missing?
+      description: Did the tool catch a mistake? Was provenance difficult to export? Include sanitized examples.

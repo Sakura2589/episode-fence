@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "input_fingerprint": "98b21e8b00d5e5a36ea5fcdbdc998bd63c1a3646ed6461147857570309a9ecaf",
+  "output_fingerprint": "00942ec875f9421861005f73908e43a0517fa8851f584761e2c8dd0288dc687e",
+  "unit": "source",
+  "seed": 0,
+  "policy": {
+    "history": 8,
+    "future": 24,
+    "embargo": 0,
+    "isolate_groups": false
+  },
+  "components": 8,
+  "target_ratios": {
+    "train": 0.8,
+    "validation": 0.2
+  },
+  "actual_ratios": {
+    "train": 0.7938931297709924,
+    "validation": 0.20610687022900764
+  },
+  "missing_task_coverage": {},
+  "verification": {
+    "schema_version": 1,
+    "status": "clear",
+    "fingerprint": "00942ec875f9421861005f73908e43a0517fa8851f584761e2c8dd0288dc687e",
+    "policy": {
+      "history": 8,
+      "future": 24,
+      "embargo": 0,
+      "isolate_groups": false
+    },
+    "summary": {
+      "clips": 10,
+      "sources": 8,
+      "affected_clips": 0,
+      "splits": {
+        "train": {
+          "clips": 8,
+          "clip_frames": 1040,
+          "affected": 0
+        },
+        "validation": {
+          "clips": 2,
+          "clip_frames": 270,
+          "affected": 0
+        }
+      }
+    },
+    "affected_ids": [],
+    "witnesses": [],
+    "evidence_limit": 200,
+    "warnings": [],
+    "scope": "Declared source/frame and optional group boundaries only; no content similarity or policy evaluation."
+  },
+  "note": "Greedy balance by summed clip frames, not unique frames. Ratios are approximate. No stratification, chronology guarantee, or model-quality guarantee."
+}

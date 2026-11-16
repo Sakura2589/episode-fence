@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">EpisodeFence: separate clips can share action-window frames</title>
+<desc id="desc">Training clip zero to one hundred and validation clip one hundred ten to two hundred expand to overlapping windows. Shared frames 102 to 124 are detected. The demo finds four affected clips and a new source-grouped split has zero declared conflicts.</desc>
+<rect width="1200" height="520" rx="18" fill="#f5f3ea"/>
+<rect x="40" y="38" width="1120" height="5" fill="#196c59"/>
+<g font-family="system-ui,sans-serif" fill="#162e31">
+<text x="56" y="82" font-size="13" font-weight="700" letter-spacing="3" fill="#196c59">EPISODEFENCE / TRUST THE BOUNDARY</text>
+<text x="56" y="140" font-size="42" font-weight="700">Separate clips. Shared training frames.</text>
+<text x="56" y="177" font-size="18" fill="#596d6f">Audit original source coordinates before training your robot policy.</text>
+<rect x="56" y="212" width="1088" height="194" rx="12" fill="white" stroke="#d5ded6"/>
+<text x="80" y="253" font-size="17" font-weight="650">recording-02</text>
+<text x="80" y="299" font-size="15">train</text><text x="80" y="357" font-size="15">validation</text>
+<g stroke="#d5ded6"><path d="M300 265V380 M550 265V380 M800 265V380 M1050 265V380"/></g>
+<g font-size="12" fill="#596d6f"><text x="296" y="251">0</text><text x="541" y="251">100</text><text x="790" y="251">200</text><text x="1040" y="251">300</text></g>
+<rect x="300" y="279" width="310" height="28" rx="4" fill="#196c59" opacity=".20"/>
+<rect x="300" y="285" width="250" height="16" rx="3" fill="#196c59"/>
+<rect x="555" y="337" width="305" height="28" rx="4" fill="#da7747" opacity=".20"/>
+<rect x="575" y="343" width="225" height="16" rx="3" fill="#da7747"/>
+<rect x="555" y="270" width="55" height="103" rx="3" fill="#ae3e32" opacity=".15"/>
+<path d="M610 317H740" stroke="#ae3e32" stroke-width="1.5"/>
+<text x="750" y="322" font-size="15" font-weight="600" fill="#ae3e32">22 shared frames · [102, 124)</text>
+<text x="80" y="391" font-size="12" fill="#596d6f">Solid = clip · pale = read window · history 8 / future 24</text>
+<text x="56" y="454" font-size="19" font-weight="700">Synthetic demo: 4 affected clips → 0 after source-grouped planning</text>
+<text x="56" y="484" font-size="14" fill="#596d6f">No GPU · No model API · Local reports · Exact frame evidence · Python 3.10+</text>
+</g></svg>
